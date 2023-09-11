@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width   ,initial-scale=1.0">
+        <title>Exercise about JavaScript</title>
+        <link rel="stylesheet" href="./assets/css/style.css" >
+    </head>
+    <body>
+        <div class="task1">
+        <script>
+            var object={
+                name:"MJD BASSEM HANNA",
+                phonenumber:981558640,
+                age:20,
+                Email:"mjdhna67@gmail.com"
+            }
+            console.log(object);
+            console.log(object.name);
+            console.log(object.age);
+            console.log(object.phonenumber);
+            console.log(object.Email);
+            document.writeln(object["name"]);
+            document.writeln(object["age"]);
+            document.writeln(object["phonenumber"]);
+            document.writeln(object["Email"]);
+            </script>
+            </div>
+            <div class="task2">
+            <script>
+            var x=[ 1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10];
+            var sum=0;
+            var sum4=0;
+            for(var i=0 ; i<x.length ;i++){
+                if(x[i]%2==0){
+                    sum+=x[i];
+                }
+                if(i<5){
+                    sum4+=x[i];
+                }
+            }
+              console.log(sum);
+              console.log(sum4);
+              console.log(" What a nice code");
+              document.writeln(sum,"&&&&&&",sum4);
+        </script>
+        </div>
+    </body>
+</html>
